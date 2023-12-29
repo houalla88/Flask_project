@@ -27,7 +27,7 @@ def home():
 
 @app.route('/about')
 def habout():
-    return render_template('about.html')
+    return render_template('about.html',title= 'about')
 
 if __name__ == "__main__":
     app.debug = True
